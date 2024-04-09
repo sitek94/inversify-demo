@@ -1,13 +1,9 @@
-import {Ninja} from './entities'
-import {appContainer} from './inversify.config'
-import {TYPES} from './types'
-
-const ninja = appContainer.get<Ninja>(TYPES.Warrior)
+import {Example} from './react-hooks-with-inversify'
 
 export function App() {
   return (
     <>
-      <h1>Ninja fights: "{ninja.fight()}"</h1>
+      <Example />
     </>
   )
 }
