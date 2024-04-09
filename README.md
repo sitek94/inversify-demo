@@ -1,11 +1,10 @@
-# Minimal React Starter
+# Inversify Demo
 
-## How to use
+Some experiments with InversifyJS and React.
+
+## Getting started
 
 ```shell
-# Clone the repository
-npx degit sitek94/minimal-react <project-name>
-
 # Install dependencies (or npm, yarn, pnpm)
 bun install
 
@@ -13,6 +12,8 @@ bun install
 bun dev
 ```
 
-## Bootstrapped with Vite
+## Resources
 
-https://vitejs.dev/guide/
+- [inversify/InversifyJS](https://github.com/inversify/InversifyJS)
+- [Dependency injection in React using InversifyJS | by Tomasz Świstak | ITNEXT](https://itnext.io/dependency-injection-in-react-using-inversifyjs-a38ff0c6601)
+- [Dependency injection in React using InversifyJS. Now with React Hooks | by Tomasz Świstak | ITNEXT](https://itnext.io/dependency-injection-in-react-using-inversifyjs-now-with-react-hooks-64f7f077cde6)
