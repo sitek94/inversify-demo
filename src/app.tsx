@@ -1,9 +1,9 @@
-import {Hello} from './inversify-inject-decorators/hello'
+import {Example} from './inversify-react'
 
 export function App() {
   return (
     <>
-      <Hello />
+      <Example />
     </>
   )
 }
