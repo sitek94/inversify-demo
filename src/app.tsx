@@ -1,7 +1,9 @@
+import {Hello} from './inversify-inject-decorators/hello'
+
 export function App() {
   return (
     <>
-      <h1>App</h1>
+      <Hello />
     </>
   )
 }
