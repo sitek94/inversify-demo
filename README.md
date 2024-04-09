@@ -1,15 +1,18 @@
-# inversify-demo
+# Minimal React Starter
 
-To install dependencies:
+## How to use
 
-```bash
+```shell
+# Clone the repository
+npx degit sitek94/minimal-react <project-name>
+
+# Install dependencies (or npm, yarn, pnpm)
 bun install
+
+# Start development server
+bun dev
 ```
 
-To run:
+## Bootstrapped with Vite
 
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.2. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+https://vitejs.dev/guide/
